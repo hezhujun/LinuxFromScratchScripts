@@ -10,6 +10,7 @@ echo "Automake-1.16.5 make finished"
 read -p "Press any key to continue ..."
 
 make -j4 check
+echo "t/subobj.sh may fail"
 echo "Automake-1.16.5 check finished"
 read -p "Press any key to continue ..."
 

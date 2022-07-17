@@ -9,7 +9,7 @@ set timeout=5
 insmod ext4
 set root=(hd0,1)
 
-menuentry "GNU/Linux, Linux 5.16.9-lfs-11.1" {
-        linux   /boot/vmlinuz-5.16.9-lfs-11.1 root=/dev/sda1 ro
+menuentry "GNU/Linux, Linux 5.16.9-lfs-11.1-systemd" {
+        linux   /boot/vmlinuz-5.16.9-lfs-11.1-systemd root=/dev/sda1 ro
 }
 EOF

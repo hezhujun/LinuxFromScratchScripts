@@ -11,9 +11,7 @@ cd man-db-2.10.1
             --enable-cache-owner=bin              \
             --with-browser=/usr/bin/lynx          \
             --with-vgrind=/usr/bin/vgrind         \
-            --with-grap=/usr/bin/grap             \
-            --with-systemdtmpfilesdir=            \
-            --with-systemdsystemunitdir=
+            --with-grap=/usr/bin/grap
 make
 echo "Man-DB-2.10.1 make finished"
 read -p "Press any key to continue ..."

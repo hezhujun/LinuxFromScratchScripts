@@ -68,11 +68,11 @@ cd /sources
 # /scripts/tar-1.34.sh
 # /scripts/texinfo-6.8.sh
 # /scripts/vim-8.2.4383.sh
-# /scripts/eudev-3.2.11.sh
+# /scripts/markup-safe-2.0.1.sh
+# /scripts/jinja2-3.0.3.sh
+# /scripts/systemd-250.sh
+# /scripts/dbus-1.12.20
 # /scripts/man-db-2.10.1.sh
 # /scripts/procps-ng-3.3.17.sh
 # /scripts/util-linux-2.37.4.sh
 # /scripts/e2fsprogs-1.46.5.sh
-# /scripts/sysklogd-1.5.1.sh
-# /scripts/sysvinit-3.01.sh
-# /scripts/lfs-bootscripts-20210608.sh

@@ -7,7 +7,8 @@ cd procps-3.3.17
 ./configure --prefix=/usr                            \
             --docdir=/usr/share/doc/procps-ng-3.3.17 \
             --disable-static                         \
-            --disable-kill
+            --disable-kill                           \
+            --with-systemd
 make
 echo "Procps-ng-3.3.17 make finished"
 read -p "Press any key to continue ..."

@@ -12,18 +12,15 @@ if [ ! -e ${LFS} ] ; then
   exit 1
 fi
 
-sudo chmod -R a+x tools
+# sudo chmod -R a+x tools
 # tools/prepare.sh
 
-# sudo su - lfs
 # sudo su lfs -c "env -i HOME=$HOME TERM=$TERM LFS=$LFS LFS_SCRIPT_PATH=$PWD/tools PS1='\u:\w\$ ' $PWD/tools/build_tools.sh"
-
 sudo chmod a+x scripts/*
 scripts/chroot_post.sh
 scripts/chroot_prepare.sh
 
 cp -R scripts $LFS/
-
 sudo chroot "$LFS" /usr/bin/env -i   \
     HOME=/root                  \
     TERM="$TERM"                \

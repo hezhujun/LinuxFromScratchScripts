@@ -14,7 +14,7 @@ make modules_install
 echo "Linux-5.16.9 make finished"
 read -p "Press any key to continue ..."
 
-cp -iv arch/x86/boot/bzImage /boot/vmlinuz-5.16.9-lfs-11.1
+cp -iv arch/x86/boot/bzImage /boot/vmlinuz-5.16.9-lfs-11.1-systemd
 cp -iv System.map /boot/System.map-5.16.9
 cp -iv .config /boot/config-5.16.9
 install -d /usr/share/doc/linux-5.16.9

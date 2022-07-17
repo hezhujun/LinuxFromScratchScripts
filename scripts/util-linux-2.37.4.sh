@@ -17,9 +17,7 @@ cd util-linux-2.37.4
             --disable-runuser    \
             --disable-pylibmount \
             --disable-static     \
-            --without-python     \
-            --without-systemd    \
-            --without-systemdsystemunitdir
+            --without-python
 make
 echo "Util-linux-2.37.4 make finished"
 read -p "Press any key to continue ..."
